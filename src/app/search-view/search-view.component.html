@@ -8,7 +8,7 @@
         <ng-container *ngIf="artifact.artifact_name.toLowerCase().includes(sok.toLowerCase()) || sok == ''">
             <div class="resultItem">
                 <h3 class="header"> {{artifact.artifact_name}}</h3> 
-                <img class="image" *ngIf="artifact.thumbnail_url" [src]="artifact.thumbnail_url" />
+                <img class="image" *ngIf="artifact.thumbnail_url" [src]="artifact.thumbnail_url" alt="Bilde av gjenstand"/>
             </div>
        </ng-container>
    </div>

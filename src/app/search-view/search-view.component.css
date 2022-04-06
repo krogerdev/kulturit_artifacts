@@ -44,5 +44,6 @@
 }
 
 .resultItem .image {
-    margin: 10px;
+    margin: 10px 10px;
+    width: 250px;
 }
