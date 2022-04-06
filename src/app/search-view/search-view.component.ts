@@ -24,7 +24,8 @@ interface ARTIFACT {
 export class SearchViewComponent implements OnInit {
 
   Artifacts: ARTIFACT[] = ArtifactsJson;
-
+  sok = "";
+  
   constructor() { }
 
   ngOnInit(): void {

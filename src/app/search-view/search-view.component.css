@@ -1,0 +1,48 @@
+.searchHeader {
+    align-items:center;
+    background-color: #6B7E7E;
+    display: flex;
+    justify-content: center;
+    top: 0;
+    position: fixed;
+    height: 100px;
+    width: 100%;
+}
+
+.searchHeader .material-icons {
+    color: white;
+    font-size: 36px;
+}
+
+.searchHeader input {
+    font-size: 20px;
+    height: 30px
+}
+
+.resultList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;    
+    height: 100vw;
+}
+
+.resultItem {
+    background-color: white;
+    border-color: #D6CFBF;
+    border-radius: 5px;
+    border-style:solid;
+    border-width: 1px;
+    margin: 8px;
+}
+
+.resultItem .header {
+    min-height: 40px;
+    margin: 10px;
+    text-align: center;
+    width: 250px;
+    word-wrap: normal;
+}
+
+.resultItem .image {
+    margin: 10px;
+}
