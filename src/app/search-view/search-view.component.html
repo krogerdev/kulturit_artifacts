@@ -4,7 +4,7 @@
 </div>
 
 <div class="resultList">
-    <div *ngFor="let artifact of Artifacts;">
+    <div *ngFor="let artifact of Artifacts">
         <ng-container *ngIf="artifact.artifact_name.toLowerCase().includes(sok.toLowerCase()) || sok == ''">
             <div class="resultItem">
                 <h3 class="header"> {{artifact.artifact_name}}</h3> 
